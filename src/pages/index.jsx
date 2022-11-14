@@ -1,0 +1,29 @@
+import Head from "next/head";
+
+import Header from "../components/Header";
+import Slider from "../components/Slider";
+import AboutUs from "../components/AboutUs";
+import OurProjects from "../components/OurProjects";
+import WhatWeDo from "../components/WhatWeDo";
+import Footer from "../components/Footer";
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>HOME - Griebler Remodeling</title>
+      </Head>
+
+      <main>
+        <Header />
+        <Slider />
+        <article>
+          <AboutUs />
+          <WhatWeDo />
+          <OurProjects />
+        </article>
+        <Footer />
+      </main>
+    </>
+  );
+}

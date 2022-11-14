@@ -1,0 +1,107 @@
+.cardItem {
+  height: 90vh;
+
+  .description {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+    border-bottom: 2rem solid #fff;
+    img {
+      min-width: 100vw;
+      min-height: 100vh;
+      pointer-events: none;
+      object-fit: cover;
+    }
+  }
+
+  h2 {
+    cursor: default;
+    font-size: 3rem;
+    color: var(--white);
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px black;
+  }
+  h3 {
+    margin-bottom: 0.2rem;
+    cursor: default;
+    font-size: 0.8rem;
+    color: var(--white);
+    text-transform: capitalize;
+    text-shadow: 1px 1px 10px black;
+  }
+
+  .button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    button {
+      margin-bottom: 3rem;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      color: var(--white);
+      text-shadow: 1px 1px 10px black;
+      background-color: rgba(000, 000, 000, 0.2);
+      border-radius: 4rem;
+      border: none;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: rgba(000, 000, 000, 0.4);
+    }
+  }
+}
+
+@media (max-width: 1250px) {
+  .cardItem {
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .cardItem {
+    height: 60vh;
+    h2 {
+      font-size: 2rem;
+      width: 80%;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .cardItem {
+    height: 60vh;
+    h2 {
+      font-size: 1.5rem;
+      width: 80%;
+    }
+
+    .button {
+      button {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .cardItem {
+    h2 {
+      font-size: 1.2rem;
+      width: 80%;
+    }
+  }
+}
