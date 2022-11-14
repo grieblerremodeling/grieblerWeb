@@ -1,5 +1,5 @@
 import styles from "./styles.module.scss";
-import { FaLocationArrow, FaPhone, FaInstagram } from "react-icons/fa";
+import { FaPhone, FaInstagram } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { AiFillHome } from "react-icons/ai";
 import Link from "next/link";
