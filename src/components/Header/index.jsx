@@ -37,9 +37,14 @@ export default function Header() {
             </li>
           </Link>
         </div>
-        <li className={styles.iconInstagram}>
-          <FaInstagram size={23} color="#fff" className={styles.insta} />
-        </li>
+        <Link
+          href="https://www.instagram.com/grieblerremodeling/"
+          target="_blank"
+        >
+          <li className={styles.iconInstagram}>
+            <FaInstagram size={23} color="#fff" className={styles.insta} />
+          </li>
+        </Link>
       </ul>
     </header>
   );
