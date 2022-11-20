@@ -52,12 +52,12 @@ export default function Admin({ clientList }) {
   return (
     <>
       <Head>
-        <title> Variedades </title>
+        <title> ADMIN - Griebler Remodeling </title>
       </Head>
 
       <div>
         <main className={styles.container}>
-          <h1> Deletar Produto</h1>
+          <h1> Delete Review From</h1>
 
           <form className={styles.form} onSubmit={handleDelete}>
             {clients.length !== 0 && (
@@ -73,7 +73,7 @@ export default function Admin({ clientList }) {
             )}
 
             <button type="submit" className={styles.buttonDelete}>
-              Deletar
+              Delete
             </button>
           </form>
         </main>
