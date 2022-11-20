@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   cursor: default;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid var(--white);
+  margin-bottom: 1.5rem;
   overflow: hidden;
+  height: 100vh;
 
   h2 {
     color: var(--white);
@@ -63,6 +63,7 @@
 
 @media (max-width: 1050px) {
   .ourProjects {
+    height: 100%;
     .projects {
       div {
         img {

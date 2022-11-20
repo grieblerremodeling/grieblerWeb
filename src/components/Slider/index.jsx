@@ -42,10 +42,10 @@ export default function Slider() {
               <h3>Griebler Remodeling</h3>
               <h2>{item.description}</h2>
             </div>
-            <Navbar />
+
             <div className={styles.button}>
-              <Link href="/projects">
-                <button> See More</button>
+              <Link href="mailto:grieblerremodeling@gmail.com" target="_blank">
+                <button>GET QUOTE </button>
               </Link>
             </div>
             <div className={styles.img}>

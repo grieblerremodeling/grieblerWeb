@@ -5,6 +5,7 @@
   justify-content: center;
   cursor: default;
   margin-bottom: 2rem;
+  height: 50vh;
 
   h1 {
     color: var(--white);
@@ -21,17 +22,18 @@
   }
 
   strong {
-    color: #5792d9;
+    color: var(--gold);
   }
 
   ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    max-width: 1000px;
     width: 100%;
 
     li {
-      flex: 1;
+      width: 250px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -47,6 +49,7 @@
 
 @media (max-width: 750px) {
   .aboutUs {
+    height: 100%;
     h2 {
       margin-bottom:4rem;
     }

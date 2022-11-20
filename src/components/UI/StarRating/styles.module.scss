@@ -1,0 +1,20 @@
+.container {
+  margin: auto;
+
+  label {
+    input[type="radio"] {
+      display: none;
+    }
+    .star {
+      cursor: pointer;
+      transition: color 200ms;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .star {
+    height: 35px;
+    width: 35px;
+  }
+}

@@ -30,13 +30,13 @@
         text-shadow: 1px 1px 10px black;
       }
       h1:hover {
-        color: var(--dark-900);
+        
         transition: 0.3s ease-in-out;
       }
       h1:after {
         display: block;
         content: "";
-        border-bottom: solid 2px var(--dark-900);
+        border-bottom: solid 2px var(--white);
         transform: scaleX(0);
         transform-origin: 100% 50%;
         transition: transform 250ms ease-in-out;

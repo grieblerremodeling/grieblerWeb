@@ -1,51 +1,59 @@
 import styles from "./styles.module.scss";
-import { FaPhone, FaInstagram } from "react-icons/fa";
-import { IoMail } from "react-icons/io5";
-import { AiFillHome } from "react-icons/ai";
 import Link from "next/link";
+import { useState } from "react";
+import Image from "next/image";
+import { MdLogin } from "react-icons/md";
 
 export default function Header() {
-  return (
-    <header className={styles.container}>
-      <ul>
-        <Link href="/">
-          <li>
-            <AiFillHome size={23} color="#fff" />
-            <h3>HOME</h3>
-          </li>
-        </Link>
+  const [active, setActive] = useState(false);
 
-        <div>
-          <Link href="tel:+1(978)596-7760" target="_blank">
-            <li>
-              <FaPhone size={23} color="#fff" />
-              <h3>(978) 596-7760</h3>
-            </li>
-          </Link>
-          <Link href="mailto:grieblerremodeling@gmail.com" target="_blank">
-            <li>
-              <IoMail size={23} color="#fff" />
-              <h3>grieblerremodeling@gmail.com</h3>
-            </li>
-          </Link>
-          <Link
-            href="https://www.instagram.com/grieblerremodeling/"
-            target="_blank"
-          >
-            <li>
-              <FaInstagram size={23} color="#fff" className={styles.insta} />
-            </li>
-          </Link>
-        </div>
-        <Link
-          href="https://www.instagram.com/grieblerremodeling/"
-          target="_blank"
-        >
-          <li className={styles.iconInstagram}>
-            <FaInstagram size={23} color="#fff" className={styles.insta} />
+  const ToggleMode = () => {
+    setActive(!active);
+  };
+
+  return (
+    <header className={active ? styles.containerActive : styles.container}>
+      <div
+        className={active ? styles.iconActive : styles.icon}
+        onClick={ToggleMode}
+      >
+        <div className={styles.menuBurguer}></div>
+      </div>
+      <div className={active ? styles.menuOpen : styles.menuClose}>
+        <ul>
+          <li>
+            <Link href="/">
+              <Image src="/logo.svg" height={200} width={200} alt="logo" />
+            </Link>
           </li>
-        </Link>
-      </ul>
+          <li>
+            <Link href="/contact">
+              <h3>Contact</h3>
+            </Link>
+          </li>
+          <li>
+            <Link href="/#Review">
+              <h3>Review</h3>
+            </Link>
+          </li>
+          <li>
+            <Link href="/#AboutUs">
+              <h3>About Us</h3>
+            </Link>
+          </li>
+
+          <li>
+            <Link href="#OurProjects">
+              <h3>Our Projects</h3>
+            </Link>
+          </li>
+          <li>
+            <Link href="/signIn">
+              <MdLogin size={25} color="#fff" />
+            </Link>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 }

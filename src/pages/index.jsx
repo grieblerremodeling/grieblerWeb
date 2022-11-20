@@ -6,6 +6,8 @@ import AboutUs from "../components/AboutUs";
 import OurProjects from "../components/OurProjects";
 import WhatWeDo from "../components/WhatWeDo";
 import Footer from "../components/Footer";
+import WeSupport from "../components/WeSupport";
+import Review from "../components/Review";
 
 export default function Home() {
   return (
@@ -18,9 +20,11 @@ export default function Home() {
         <Header />
         <Slider />
         <article>
-          <AboutUs />
+          <AboutUs name="test" />
           <WhatWeDo />
           <OurProjects />
+          <Review />
+          <WeSupport />
         </article>
         <Footer />
       </main>

@@ -5,26 +5,26 @@ import styles from "./styles.module.scss";
 
 export default function OurProjects() {
   return (
-    <section className={styles.ourProjects}>
+    <section className={styles.ourProjects} id="OurProjects">
       <h2>Our Projects</h2>
 
       <div className={styles.projects}>
         {comparation.slice(0, 3).map((item, index) => (
           <OnHoverImage
             key={index}
-            image={item.image[0]}
-            hoveredImage={item.image[1]}
+            image={item.image[1]}
+            hoveredImage={item.image[0]}
             title={item.title}
             alt={item.title}
           />
         ))}
       </div>
 
-      <button>
-        <Link href="/projects">
+      <Link href="/projects">
+        <button>
           <h1>See More</h1>
-        </Link>
-      </button>
+        </button>
+      </Link>
     </section>
   );
 }

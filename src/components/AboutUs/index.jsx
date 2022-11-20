@@ -6,7 +6,7 @@ import styles from "./styles.module.scss";
 
 export default function AboutUs() {
   return (
-    <section className={styles.aboutUs}>
+    <section className={styles.aboutUs} id="AboutUs">
       <h1>
         About <strong>Us</strong>
       </h1>
@@ -15,15 +15,15 @@ export default function AboutUs() {
 
       <ul>
         <li>
-          <BsHouseFill size={35} color="#5792d9" />
+          <BsHouseFill size={35} color="#febd4b" />
           <h1>architecture</h1>
         </li>
         <li>
-          <GiPaintRoller size={35} color="#5792d9" />
+          <GiPaintRoller size={35} color="#febd4b" />
           <h1>interiors</h1>
         </li>
         <li>
-          <MdDesignServices size={35} color="#5792d9" />
+          <MdDesignServices size={35} color="#febd4b" />
           <h1>design</h1>
         </li>
       </ul>

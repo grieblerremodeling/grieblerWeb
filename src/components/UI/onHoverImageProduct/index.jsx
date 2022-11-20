@@ -22,7 +22,7 @@ export const OnHoverImageProjects = ({ hoveredImage, image, alt, title }) => {
             className={styles.image}
           />
 
-          <h1> after</h1>
+          <h1> before</h1>
         </>
       ) : (
         <>
@@ -37,7 +37,7 @@ export const OnHoverImageProjects = ({ hoveredImage, image, alt, title }) => {
           />
 
           <h3> {title}</h3>
-          <h1> Before</h1>
+          <h1> after</h1>
         </>
       )}
     </div>

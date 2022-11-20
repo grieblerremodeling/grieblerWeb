@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { comparation } from "../../utils/array";
 import styles from "./styles.module.scss";
 import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 import { OnHoverImageProjects } from "../../components/UI/onHoverImageProduct";
+import { FiArrowLeft } from "react-icons/fi";
 
 export default function Projects() {
   return (
@@ -15,7 +15,11 @@ export default function Projects() {
       </Head>
 
       <main>
-        <Header />
+        <div className={styles.goBack}>
+          <Link href="/">
+            <FiArrowLeft size={28} color="#fff" />
+          </Link>
+        </div>
 
         <article>
           <section className={styles.container}>
@@ -27,8 +31,8 @@ export default function Projects() {
               {comparation.map((item, index) => (
                 <OnHoverImageProjects
                   key={index}
-                  image={item.image[0]}
-                  hoveredImage={item.image[1]}
+                  image={item.image[1]}
+                  hoveredImage={item.image[0]}
                   title={item.title}
                   alt={item.title}
                 />
