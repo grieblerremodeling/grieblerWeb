@@ -7,8 +7,7 @@ export function setupAPIClient(ctx = undefined) {
   let cookies = parseCookies(ctx);
 
   const api = axios.create({
-    //baseURL: "https://griebler-remodeling.herokuapp.com",
-    baseURL: "http://localhost:3000",
+    baseURL: "https://griebler-remodeling.herokuapp.com",
     headers: {
       Authorization: `Bearer ${cookies["@nextauth.token"]}`,
     },
