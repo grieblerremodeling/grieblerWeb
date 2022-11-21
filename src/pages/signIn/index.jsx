@@ -15,7 +15,7 @@ export default function Sign() {
     event.preventDefault();
 
     if (email === "" || password === "") {
-      toast.error("Preencha os dados");
+      toast.error("Fill in all fields.");
       return;
     }
 

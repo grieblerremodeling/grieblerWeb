@@ -13,7 +13,7 @@ export default function Admin({ clientList }) {
 
   async function handleDelete(event) {
     if (clients.length === 0) {
-      toast.error(" Não há produtos para excluir");
+      toast.error(" There are no comments to delete.");
       event.preventDefault();
       return;
     }
@@ -34,10 +34,10 @@ export default function Admin({ clientList }) {
       );
 
       setClients(response.data.result);
-      toast.success("Produto Excluido com Sucesso");
+      toast.success("Review Deleted Successfully.");
     } catch (error) {
       console.log(error);
-      toast.error("Erro ao excluir o produto");
+      toast.error("Error deleting review.");
     }
   }
 
