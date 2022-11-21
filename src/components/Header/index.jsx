@@ -43,7 +43,7 @@ export default function Header() {
           </li>
 
           <li>
-            <Link href="#OurProjects">
+            <Link href="/projects">
               <h3>Our Projects</h3>
             </Link>
           </li>

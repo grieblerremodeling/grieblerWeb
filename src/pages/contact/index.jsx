@@ -5,6 +5,7 @@ import { IoMail, IoLocation } from "react-icons/io5";
 import Link from "next/link";
 
 import styles from "./styles.module.scss";
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -60,6 +61,7 @@ export default function Contact() {
                 </Link>
               </div>
             </div>
+
             <div className={styles.detail}>
               <h1>© All rights reserved for Griebler Remodeling, 2022.</h1>
             </div>

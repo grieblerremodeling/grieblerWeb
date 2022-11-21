@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 import { OnHoverImageProjects } from "../../components/UI/onHoverImageProduct";
 import { FiArrowLeft } from "react-icons/fi";
+import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -53,6 +54,12 @@ export default function Projects() {
                   />
                   <h3>GrieblerRemodeling</h3>
                 </div>
+              </Link>
+              <Link
+                href="https://www.instagram.com/grieblerremodeling/"
+                target="_blank"
+              >
+                <Image src="/marcelomafrabjj.png" width={200} height={200} />
               </Link>
             </div>
           </section>

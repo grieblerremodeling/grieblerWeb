@@ -45,12 +45,16 @@
 
 .seeMore {
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   h2 {
     text-transform: capitalize;
     color: var(--white);
     font-size: 1.5rem;
     text-shadow: 1px 1px 10px black;
+    
   }
 
   div {
@@ -63,6 +67,7 @@
       font-size: 1rem;
       margin-left: 0.5rem;
       text-shadow: 1px 1px 10px black;
+      margin-bottom: 1rem;
     }
     h3:after {
       display: block;
