@@ -59,7 +59,7 @@ export default function Projects() {
                 href="https://www.instagram.com/grieblerremodeling/"
                 target="_blank"
               >
-                <Image src="/marcelomafrabjj.png" width={200} height={200} />
+                <Image src="/qrcode.png" width={200} height={200} />
               </Link>
             </div>
           </section>

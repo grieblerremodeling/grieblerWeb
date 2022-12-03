@@ -57,6 +57,13 @@
     
   }
 
+  a {
+    img {
+      background-color: var(--dark-800);
+      border-radius: 0.5rem;
+    }
+  }
+
   div {
     display: flex;
     justify-content: center;

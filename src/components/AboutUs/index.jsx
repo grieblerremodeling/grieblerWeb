@@ -11,22 +11,14 @@ export default function AboutUs() {
         About <strong>Us</strong>
       </h1>
 
-      <h2>Our specialization</h2>
-
-      <ul>
-        <li>
-          <BsHouseFill size={35} color="#febd4b" />
-          <h1>architecture</h1>
-        </li>
-        <li>
-          <GiPaintRoller size={35} color="#febd4b" />
-          <h1>interiors</h1>
-        </li>
-        <li>
-          <MdDesignServices size={35} color="#febd4b" />
-          <h1>design</h1>
-        </li>
-      </ul>
+      <h2>
+        Griebler Remodeling is a specialist remodeling company that has been
+        servicing clients in the Northeast of the United States. We pride
+        ourselves on having a complete team that can handle a wide variety of
+        home renovation and home improvement projects. We have been building and
+        remodeling for many years and we can do your project with intelligence,
+        elegance, technology and the highest quality.
+      </h2>
     </section>
   );
 }

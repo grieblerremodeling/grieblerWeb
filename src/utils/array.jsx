@@ -2,7 +2,7 @@ export const images = [
   {
     id: 1,
     image: "/house.JPEG",
-    description: "we help you to build a dream.",
+    description: "We Can Help Your Dreams Become Reality",
   },
   {
     id: 2,
@@ -12,7 +12,7 @@ export const images = [
   {
     id: 3,
     image: "/bathroom.JPEG",
-    description: "Designing and building with quality and technology.",
+    description: "Design and build with quality and the best technology",
   },
 ];
 
@@ -20,7 +20,7 @@ export const comparation = [
   {
     id: 1,
     image: ["/houseAfter.JPEG", "/houseBefore.JPEG"],
-    title: "interior",
+    title: "kitchen",
   },
   {
     id: 2,

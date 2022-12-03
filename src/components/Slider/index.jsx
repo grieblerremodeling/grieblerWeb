@@ -7,7 +7,6 @@ import "swiper/css/autoplay";
 
 import styles from "./styles.module.scss";
 import Image from "next/image";
-import Navbar from "../Navbar";
 import { images } from "../../utils/array";
 import Link from "next/link";
 
@@ -39,13 +38,13 @@ export default function Slider() {
         <SwiperSlide key={key}>
           <div key={key} className={styles.cardItem}>
             <div className={styles.description}>
-              <h3>Griebler Remodeling</h3>
+              <h3>Site Griebler</h3>
               <h2>{item.description}</h2>
             </div>
 
             <div className={styles.button}>
               <Link href="mailto:grieblerremodeling@gmail.com" target="_blank">
-                <button>GET QUOTE </button>
+                <button>GET QUOTE</button>
               </Link>
             </div>
             <div className={styles.img}>

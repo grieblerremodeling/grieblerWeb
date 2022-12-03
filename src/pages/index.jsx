@@ -20,7 +20,7 @@ export default function Home() {
         <Header />
         <Slider />
         <article>
-          <AboutUs name="test" />
+          <AboutUs />
           <WhatWeDo />
           <OurProjects />
           <Review />

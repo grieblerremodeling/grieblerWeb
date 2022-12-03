@@ -1,8 +1,10 @@
 import styles from "./styles.module.scss";
 
-import { BsGearWide } from "react-icons/bs";
+import { BsGearWide, BsFillHouseFill, BsTools } from "react-icons/bs";
+import { BiCabinet } from "react-icons/bi";
 import { IoIosConstruct } from "react-icons/io";
-import { FaLightbulb } from "react-icons/fa";
+import { MdAutorenew } from "react-icons/md";
+import { ImPaintFormat } from "react-icons/im";
 
 export default function WhatWeDo() {
   return (
@@ -13,21 +15,28 @@ export default function WhatWeDo() {
 
       <ul>
         <li>
-          <FaLightbulb color="#febd4b" size={40} className={styles.icon} />
-          <h1>renovation</h1>
-          <h3>We will improve your structure or make it more modern!</h3>
+          <MdAutorenew color="#febd4b" size={45} className={styles.icon} />
+          <h1>General remodeling and Additions.</h1>
         </li>
         <li>
-          <IoIosConstruct color="#febd4b" size={40} className={styles.icon} />
-          <h1>construction</h1>
-          <h3>
-            We will build your dream from scratch, with technology and quality.
-          </h3>
+          <BsFillHouseFill color="#febd4b" size={45} className={styles.icon} />
+          <h1>All about residential and commercial renovation.</h1>
         </li>
         <li>
-          <BsGearWide color="#febd4b" size={40} className={styles.icon} />
-          <h1>remodelation</h1>
-          <h3>We can renovate existing structures, leaving it your way.</h3>
+          <IoIosConstruct color="#febd4b" size={45} className={styles.icon} />
+          <h1>Deck, porch, varanda and so forth.</h1>
+        </li>
+        <li>
+          <BiCabinet color="#febd4b" size={45} className={styles.icon} />
+          <h1>Custom cabinets.</h1>
+        </li>
+        <li>
+          <ImPaintFormat color="#febd4b" size={45} className={styles.icon} />
+          <h1>Interior and exterior painting.</h1>
+        </li>
+        <li>
+          <BsTools color="#febd4b" size={45} className={styles.icon} />
+          <h1>Finish carpentry.</h1>
         </li>
       </ul>
     </section>

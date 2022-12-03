@@ -9,10 +9,7 @@ export default function Footer() {
       <ul>
         <li>
           <h1>Griebler Remodeling</h1>
-          <h2>
-            We have been in the market for years, building your project in an
-            intelligent way, with technology and highest quality.
-          </h2>
+          <h2>We Can Help Your Dreams Become Reality.</h2>
         </li>
         <li>
           <h1>Contact</h1>
@@ -42,9 +39,6 @@ export default function Footer() {
               <h3>GrieblerRemodeling</h3>
             </div>
           </Link>
-        </li>
-        <li>
-          <h1>Thank you for your preference.</h1>
         </li>
       </ul>
       <div className={styles.detail}>
