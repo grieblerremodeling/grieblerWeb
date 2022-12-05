@@ -44,7 +44,6 @@
       cursor: grab;
       img {
         width: 70vw;
-        height: 70vh;
         pointer-events: none;
         object-fit: cover;
       }
@@ -52,11 +51,10 @@
       h1 {
         font-size: 1rem;
         position: absolute;
-        bottom:  0;
+        bottom: 0;
         text-align: center;
         text-shadow: 1px 1px 10px black;
       }
-
     }
   }
   .videos {
@@ -159,6 +157,12 @@
     }
   }
 
+  .cardItem {
+    img {
+      height: 50vh;
+    }
+  }
+
   .videos {
     grid-template-columns: repeat(1, 1fr);
 
@@ -204,6 +208,12 @@
         border: 1px solid var(--white);
         transition: 1s;
       }
+    }
+  }
+
+  .cardItem {
+    img {
+      height: 70vh;
     }
   }
 
