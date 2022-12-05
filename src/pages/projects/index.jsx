@@ -69,7 +69,7 @@ export default function Projects() {
                         alt={item.description}
                         priority
                       />
-                    <h1>{item.description}</h1>
+                      <h1>{item.description}</h1>
                     </div>
                   </SwiperSlide>
                 ))}
@@ -85,12 +85,12 @@ export default function Projects() {
               </div>
               <div className={styles.video}>
                 <Player muted>
-                  <source src="/deckVideo.MOV" />
+                  <source src="/deckVideo.mp4" />
                 </Player>
               </div>
               <div className={styles.video}>
                 <Player muted>
-                  <source src="/deckVideo2.MOV" />
+                  <source src="/deckVideo2.mp4" />
                 </Player>
               </div>
             </div>
