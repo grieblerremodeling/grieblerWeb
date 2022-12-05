@@ -10,7 +10,7 @@ import Image from "next/image";
 import { images } from "../../utils/array";
 import Link from "next/link";
 
-function SliderConfig({ settings, children }) {
+export function SliderConfig({ settings, children }) {
   return (
     <div>
       <Swiper modules={[Navigation, Pagination, Autoplay]} {...settings}>
