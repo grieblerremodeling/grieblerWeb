@@ -38,7 +38,6 @@ export default function Slider() {
         <SwiperSlide key={key}>
           <div key={key} className={styles.cardItem}>
             <div className={styles.description}>
-              <h3>Site Griebler</h3>
               <h2>{item.description}</h2>
             </div>
 

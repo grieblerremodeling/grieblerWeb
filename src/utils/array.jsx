@@ -18,15 +18,23 @@ export const images = [
 
 export const comparation = [
   {
+    image: ["/porchRemodelingBefore.jpeg", "/porchRemodelingAfter.jpeg"],
+    title: "Porch remodeling",
+  },
+  {
+    image: ["/frontDoorAfter.JPEG", "/frontDoorBefore.JPEG"],
+    title: "Front door renovation",
+  },
+  {
     image: ["/cabinetAfter.JPEG", "/cabinetBefore0.jpg"],
-    title: "kitchen",
+    title: "Custom built-in cabinets",
   },
   {
     image: ["/deckAfter2.JPEG", "/deckBefore2.JPEG"],
     title: "Deck",
   },
   {
-    image: ["/stairsAfter2.JPEG", "/stairsBefore2.JPEG"],
+    image: ["/stairsAfter2.jpg", "/stairsBefore2.JPEG"],
     title: "Stairs",
   },
   {
@@ -34,8 +42,8 @@ export const comparation = [
     title: "Deck",
   },
   {
-    image: ["/frontDoorAfter.JPEG", "/frontDoorBefore.JPEG"],
-    title: "Front door renovation",
+    image: ["/deckAfter5.JPEG", "/deckBefore5.jpeg"],
+    title: "Deck",
   },
   {
     image: ["/kitchenAfter2.JPEG", "/kitchenBefore2.jpg"],
@@ -63,19 +71,15 @@ export const comparation = [
   },
   {
     image: ["/bethroomAfter.JPEG", "bathroomBefore.jpg"],
-    title: "Bethroom",
+    title: "Bathroom",
+  },
+  {
+    image: ["/bathroomAfter2.JPEG", "bathroomBefore2.JPEG"],
+    title: "Bathroom",
   },
 ];
 
 export const finishProjects = [
-  {
-    image: "/finishKitchen.JPEG",
-    description: "finish Kitchen",
-  },
-  {
-    image: "/finishKitchen2.JPEG",
-    description: "finish Kitchen",
-  },
   {
     image: "/kitchen.jpg",
     description: "finish Kitchen",

@@ -60,6 +60,7 @@
   .videos {
     width: 100%;
     display: grid;
+    row-gap: 2rem;
     justify-content: center;
 
     .video {
@@ -149,6 +150,7 @@
   }
   .projects {
     grid-template-columns: repeat(1, 1fr);
+
     div {
       img {
         width: 250px;

@@ -24,7 +24,7 @@ export default function WhatWeDo() {
         </li>
         <li>
           <IoIosConstruct color="#febd4b" size={45} className={styles.icon} />
-          <h1>Deck, porch, varanda and so forth.</h1>
+          <h1>Deck, porch and so forth.</h1>
         </li>
         <li>
           <BiCabinet color="#febd4b" size={45} className={styles.icon} />

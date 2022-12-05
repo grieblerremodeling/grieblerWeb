@@ -29,7 +29,7 @@ export default function Contact() {
               <div className={styles.list}>
                 <div>
                   <IoLocation size={30} color="#fff" />
-                  <h4> Massachusetts </h4>
+                  <h4> Massachusetts, USA</h4>
                 </div>
                 <Link href="tel:+1(978)596-7760" target="_blank">
                   <div>

@@ -93,6 +93,11 @@ export default function Projects() {
                   <source src="/deckVideo2.mp4" />
                 </Player>
               </div>
+              <div className={styles.video}>
+                <Player>
+                  <source src="/bathroom.mp4" />
+                </Player>
+              </div>
             </div>
 
             <div className={styles.seeMore}>
