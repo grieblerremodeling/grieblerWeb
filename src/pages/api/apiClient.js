@@ -8,7 +8,7 @@ export function setupAPIClient(ctx = undefined) {
 
   const api = axios.create({
     baseURL: "https://grieblerremodeling.com/",
-    // baseURL: "http://localhost:3000/",
+    //baseURL: "http://localhost:3000/",
     headers: {
       Authorization: `Bearer ${cookies["@nextauth.token"]}`,
     },
